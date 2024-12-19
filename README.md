@@ -1,9 +1,7 @@
 # python-week-one-
 # Basic Calculator Program
 
-# Function to perform calculations
-def calculator():
-    # Getting user input for the numbers and operation
+    def calculator():  
     num1 = float(input("Enter the first number: "))
     num2 = float(input("Enter the second number: "))
     operation = input("Enter the operation (+, -, *, /): ")
@@ -26,7 +24,5 @@ def calculator():
             print("Error: Division by zero is not allowed.")
     else:
         print("Invalid operation. Please enter +, -, *, or /.")
-
-# Calling the function
-calculator()
+    calculator()
 
